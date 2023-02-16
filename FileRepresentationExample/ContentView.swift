@@ -17,7 +17,7 @@ struct ExampleObject: Transferable {
 
     static var transferRepresentation: some TransferRepresentation {
         FileRepresentation(exportedContentType: .exampleType) { item in
-            SentTransferredFile(item.exampleTextURL)
+            SentTransferredFile(item.exampleTextURL) //Using .plainText directly, doesn't work as well
         }
         // More transferring types here...
     }
