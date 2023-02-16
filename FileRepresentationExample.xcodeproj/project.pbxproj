@@ -11,6 +11,7 @@
 		D185F635299E301B00597A0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185F634299E301B00597A0B /* ContentView.swift */; };
 		D185F637299E301C00597A0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D185F636299E301C00597A0B /* Assets.xcassets */; };
 		D185F63B299E301C00597A0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D185F63A299E301C00597A0B /* Preview Assets.xcassets */; };
+		D185F642299E303C00597A0B /* example.txt in Resources */ = {isa = PBXBuildFile; fileRef = D185F641299E303C00597A0B /* example.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		D185F636299E301C00597A0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D185F638299E301C00597A0B /* FileRepresentationExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FileRepresentationExample.entitlements; sourceTree = "<group>"; };
 		D185F63A299E301C00597A0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D185F641299E303C00597A0B /* example.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = example.txt; sourceTree = "<group>"; };
+		D185F643299E323E00597A0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +55,10 @@
 		D185F631299E301B00597A0B /* FileRepresentationExample */ = {
 			isa = PBXGroup;
 			children = (
+				D185F643299E323E00597A0B /* Info.plist */,
 				D185F632299E301B00597A0B /* FileRepresentationExampleApp.swift */,
 				D185F634299E301B00597A0B /* ContentView.swift */,
+				D185F641299E303C00597A0B /* example.txt */,
 				D185F636299E301C00597A0B /* Assets.xcassets */,
 				D185F638299E301C00597A0B /* FileRepresentationExample.entitlements */,
 				D185F639299E301C00597A0B /* Preview Content */,
@@ -127,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D185F642299E303C00597A0B /* example.txt in Resources */,
 				D185F63B299E301C00597A0B /* Preview Assets.xcassets in Resources */,
 				D185F637299E301C00597A0B /* Assets.xcassets in Resources */,
 			);
@@ -269,6 +275,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FileRepresentationExample/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -307,6 +314,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FileRepresentationExample/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
